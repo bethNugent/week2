@@ -1,11 +1,11 @@
-//CODE NATION - wearecodenation.com
+// Day 2 - Scroll past examples to activities at bottom
 // Week 2 - Variables
 
-//example 1
+// example 1
 
 // console.log("All around the world");
 
-//To access a specific index and make it uppercase
+// To access a specific index and make it uppercase
 // console.log("All around the world".charAt(7).toUpperCase());
 // console.log("All around the world".toUpperCase().charAt(7));
 
@@ -14,10 +14,10 @@
 // let const var 
 //var has become obsolete
 
-//let declaring a value that CAN be changed
+// let declaring a value that CAN be changed
 //const declare a value that CANT be changed
 
-//DATA TYPES - strings, numbers, boolean, null, symbols, undefined
+// DATA TYPES - strings, numbers, boolean, null, symbols, undefined
 
 // let favouriteDrink = "coffee";
 
@@ -31,14 +31,14 @@
 
 // console.log(`My 2nd favourite drink is ${favouriteDrink2}`);
 
-// let name = "Beth";
-// let age = 28;
-// let favColour = "green";
-
-// console.log(`My name is ${name} and I am ${age}. My favourite colour is ${favColour}.`);
 
 
-//Activity 1 - Create a program that stores someone's name, age and favourite colour and log it to the console in a complete sentence using template literals.
+
+//-----------------------ACTIVITIES------------------------------
+
+
+
+//----Activity 1 - Create a program that stores someone's name, age and favourite colour and log it to the console in a complete sentence using template literals.
 
 // let personName = "Beth";
 // let age = 28;
@@ -54,7 +54,9 @@
 
 // console.log(`My name is ${personName} and I am ${age}. My favourite colour is ${favColour}.`);
 
-//Activity 2 - Create a program that stores what you eat today for breakfast, lunch and dinner. Log these to the console.
+
+
+//-----Activity 2 - Create a program that stores what you eat today for breakfast, lunch and dinner. Log these to the console.
 
 // let breakfast = "granola with mango, banana and greek yoghurt";
 // let lunch = "rice and brocoli";
@@ -70,7 +72,9 @@
 
 // console.log(`Tomorrow for my breakfast I will have ${breakfast}. For my lunch I will have ${lunch} from last nights dinner. For dinner, Conor is making us ${dinner}.`);
 
-// Activity 3 - create a program that calculates the number of days from today to your birth date.
+
+
+//------Activity 3 - create a program that calculates the number of days from today to your birth date.
 
 // let date1 = new Date("03/07/2023"); //american date  month/day/year
 // let date2 = new Date("07/27/2023"); //this is my birthday
@@ -78,9 +82,34 @@
 // let Difference_In_Time = date2.getTime() - date1.getTime();
 // let Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
 
-// console.log(`Total number of days between dates ${date1} and ${date2} is ${Difference_In_Days}`);
+// console.log(`Total number of days from todays date, ${date1} and my birthday which will be on ${date2} is ${Difference_In_Days} days.`);
 
 
 //Activity 4 - Create 9 variables: space 1 to space 9. 
 //Assign either the value of 'x', 'o', to each of these variables.
 //Insert the variables into your board using the ${} syntax and make it look like the displayed board
+
+
+let space1 = 'x'
+let space2 = 'o'
+let space3 = ' '
+let space4 = 'x'
+let space5 = 'x'
+let space6 = ' '
+let space7 = 'o'
+let space8 = ' '
+let space9 = ' '
+
+console.log(`
+   |   |
+ ${space1} | ${space2} | ${space3}
+   |   |
+-----------
+   |   |
+ ${space4} | ${space5} | ${space6}
+   |   |
+-----------
+   |   |
+ ${space7} | ${space8} | ${space9}
+   |   |
+`)
